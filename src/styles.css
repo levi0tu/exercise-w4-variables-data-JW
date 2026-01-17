@@ -1,3 +1,18 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.ruta {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    background-color: rgb(238, 216, 170);
+    padding: 2rem;
 }
